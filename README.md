@@ -1,2 +1,9 @@
-# FingerprintPress
-按压电源键指纹解锁模块
+# FingerprintPress 按压指纹解锁
+这是一个用于原生/类原生的**Xposed**模块  
+功能如下:
+1: 干掉指纹解锁次数限制 现在你不必为30秒所困扰
+2: 息屏下不进行指纹解锁逻辑 并且拦截成功的震动(虽然还在监听)
+3: 息屏下手指放上去1秒内按下电源键直接解锁(指纹正确的情况下), 没按就啥事情不发生
+
+
+LICENSE [AGPL 3.0](https://www.gnu.org/licenses/agpl-3.0.html)
