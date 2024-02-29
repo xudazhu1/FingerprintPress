@@ -24,5 +24,5 @@ public class HookConstant {
     /**
      * 指纹认证成功和按压电源键的连贯间隔要求
      */
-    public static final int TIMEOUT = 1500;
+    public static final int TIMEOUT = 2200;
 }
